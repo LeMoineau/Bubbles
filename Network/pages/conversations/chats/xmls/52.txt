@@ -1,0 +1,24 @@
+name: test20000;
+members: 32,33,59,1;
+admins: 1;
+
+<Messages>;
+-1 ¤ 17/03/20 12:46 ¤ 1 ¤ C'est un nouveau groupe qui se créer !;
+1 ¤ 17/03/20 12:46 ¤ 2 ¤ test;
+1 ¤ 17/03/20 12:46 ¤ 3 ¤ coucou;
+1 ¤ 17/03/20 12:46 ¤ 4 ¤ qzdopqzjdpqjozd opqzd;;
+1 ¤ 17/03/20 12:46 ¤ 5 ¤ qzd;
+1 ¤ 17/03/20 12:46 ¤ 6 ¤ qzd;
+1 ¤ 17/03/20 12:47 ¤ 7 ¤ testons ; des trucs ;;
+1 ¤ 17/03/20 12:48 ¤ 8 ¤ coucou les amis ;\n;
+1 ¤ 17/03/20 12:49 ¤ 9 ¤ Cette section présente quelques exemples où la puissance thermique joue un rôle.  Une bougie allumée met en mouvement l’air qui l’entoure. Un courant ascendant est créé au-dessus de la flamme. Il est perpétuellement renouvelé par un courant d’air froid arrivant par en dessous. On peut les observer dans une pièce calme avec une plume de duvet ou en approchant une autre flamme. Il s'agit d'un courant de convection. L’eau dans une casserole sur le feu se met en mouvement comme l’air au-dessus de la bougie et comme tous les fluides au-dessus de surfaces suffisamment chaudes. Si on met un couvercle, un nouveau phénomène se produit. La vapeur soulève le couvercle, qui retombe ensuite pour être à nouveau soulevé, sans cesse jusqu’à épuisement du feu ou de l'eau, donc de la production de vapeur. On raconte que l’invention des machines à vapeur est liée à cette simple observation que l'on peut faire dans toutes les cuisines. Le mouvement du couvercle est trop petit pour être intéressant. Il s’arrête aussitôt commencé, car la vapeur qui le pousse s’échappe tout de suite. Mais si on remplace le couvercle par un piston dans un cylindre, on obtient un système avec piston qui peut être poussé par la vapeur ou tout autre gaz sur une longue course. Les machines à vapeur et les moteurs thermiques ne sont pas toujours construits sur le principe du piston et du cylindre. Les autres solutions ne sont pas très différentes. On peut considérer que l’expérience du couvercle de la casserole est à l’origine des inventions de tous les moteurs thermiques.  L'Éolipyle d'Héron d'Alexandrie. Avant les travaux de Sadi Carnot, les hommes connaissaient la turbine à vapeur. Elle se compose d'une boule de métal en rotation sur un axe. L’eau qu’elle contient est chauffée par en dessous. Deux jets de vapeur tangentiels et opposés mettent alors la boule en mouvement. Ce système n’a pas été amélioré avant les temps modernes. Les réacteurs des avions d’aujourd’hui (turbines à gaz) fonctionnent en grande partie sur le même principe que cet ancêtre de la turbine. La puissance motrice du feu a été beaucoup plus développée pour faire des armes. La balle, l’obus, ou tout autre projectile, est poussé dans le canon par un gaz très chaud produit par la combustion de la poudre ou de tout autre explosif. Le canon forme un cylindre dans lequel circule un projectile qui joue le rôle du piston. Les fluides de la surface terrestre, l’atmosphère et les océans, sont mis en mouvement par la chaleur du Soleil. Pour les océans, la gravitation joue aussi un rôle dans les marées. La puissance du vent est donc une forme de la puissance motrice du feu.;
+1 ¤ 17/03/20 12:49 ¤ 10 ¤ coucou;
+1 ¤ 17/03/20 01:37 ¤ 11 ¤ testons plus !;
+1 ¤ 17/03/20 01:37 ¤ 12 ¤ testons enfin !;
+1 ¤ 17/03/20 02:03 ¤ 13 ¤ test;
+1 ¤ 17/03/20 02:03 ¤ 14 ¤ bonjour monsieur,;
+1 ¤ 17/03/20 02:04 ¤ 15 ¤ je suis Pierre FABER, étudiant en  cylce préparatoire à l'école de l'EFREI Paris;
+1 ¤ 17/03/20 02:04 ¤ 16 ¤ je candidate dans votre entreprise afin d'obtenir un job que me permetterait d'utiliser une grande puissance sur tout notre territoire.;
+1 ¤ 17/03/20 02:05 ¤ 17 ¤ Ce pouvroi, que j'attends, me procurera un sentiment d'accomplissement incomparable;
+1 ¤ 17/03/20 03:50 ¤ 18 ¤ coucou la mifa;
+1 ¤ 24/03/20 10:39 ¤ 19 ¤ je te aprle;

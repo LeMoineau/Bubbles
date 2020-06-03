@@ -1,0 +1,7 @@
+name: deletons;
+members: 58,33,60;
+admins: 58;
+
+<Messages>;
+-1 ¤ 15/04/20 01:10 ¤ 1 ¤ C'est un nouveau groupe qui se créer !;
+-1 ¤ 15/04/20 01:10 ¤ 2 ¤ Une personne semble être partie...;

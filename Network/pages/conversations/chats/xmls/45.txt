@@ -1,0 +1,6 @@
+name: hope;
+members: 32,58,33,1;
+admins: 1;
+
+<Messages>;
+1 ¤ 13/03/20 09:38 ¤ 1 ¤ C'est un nouveau groupe qui se créer !;
