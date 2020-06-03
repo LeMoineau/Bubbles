@@ -1,0 +1,184 @@
+
+#conv-buttonPanel {
+
+  position: fixed;
+  margin: 20px;
+  margin-bottom: 10px;
+  right: 0;
+  bottom: 0;
+  width: calc(100% - 400px - 40px);
+  height: 50px;
+  border-top: solid 1px #3498db;
+  padding-top: 10px;
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+#sender {
+
+  flex: 1;
+
+}
+
+#sender input {
+
+  width: calc(100% - 40px);
+  border: none;
+  background-color: transparent;
+  font-size: 15px;
+  padding: 20px;
+  outline: none;
+
+}
+
+#conv-msgs-container {
+
+  position: fixed;
+  right: 0px;
+  top: 60px;
+  width: calc(100% - 400px);
+  height: calc(100% - 60px - 101px);
+
+}
+
+.conv-msgs {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  overflow: auto;
+  padding: 20px;
+
+}
+
+.conv-msg-item {
+
+  padding: 20px;
+  border-radius: 3px;
+  background-color: #82ccdd;
+  margin: 5px;
+  text-align: justify;
+
+}
+
+.conv-msg-line {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+
+}
+
+.from-us {
+
+  justify-content: flex-end;
+  text-align: right;
+
+}
+
+.from-admin {
+
+  justify-content: center;
+
+}
+
+.from-us .conv-msg-item {
+
+  background-color: #b8e994;
+
+}
+
+.from-admin .conv-msg-item {
+
+  background-color: #f7d794;
+
+}
+
+.conv-msg-item h1{
+
+  font-size: 15px;
+  margin: 0px;
+  font-weight: normal;
+
+}
+
+.conv-msg-item h2{
+
+  text-align: right;
+  font-size: 10px;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: -5px;
+
+}
+
+.conv-msg-date {
+
+  text-align: right;
+  font-size: 12px;
+  margin-top: 10px;
+  padding-bottom: -5px;
+
+}
+
+.conv-button {
+
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  transition: all 0.2s linear;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-left: 20px;
+
+}
+
+.conv-button-title {
+
+  width: 0px;
+  transition: all 0.3s linear;
+  padding: 0px;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+
+}
+
+.conv-button-head {
+
+  width: 50px;
+  height: 50px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #3498db;
+  border-radius: 100%;
+  background-color: #ecf0f1;
+
+}
+
+.conv-button:hover .conv-button-title, .conv-button-title:hover {
+
+  width: 120px;
+  padding: 10px;
+
+}
+
+.conv-button:hover {
+
+  background-color: #3498db;
+
+}
