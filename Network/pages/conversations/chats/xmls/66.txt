@@ -1,7 +1,0 @@
-name: qzd;
-members: ;
-admins: ;
-
-<Messages>;
--1 ¤ 15/04/20 12:54 ¤ 1 ¤ C'est un nouveau groupe qui se créer !;
--1 ¤ 15/04/20 12:54 ¤ 2 ¤ Une personne semble être partie...;
