@@ -1,0 +1,9 @@
+name: enfin !;
+members: 32,1;
+admins: 1;
+
+<Messages>;
+-1 ¤ 16/03/20 07:13 ¤ 1 ¤ C'est un nouveau groupe qui se créer !;
+1 ¤ 17/03/20 02:15 ¤ 28 ¤ Un wiki est une application web qui permet la création,
+la modification et l'illustration collaboratives de pages à l'intérieur d'un site web. Il utilise un langage de balisage et son contenu est modifiable au moyen d’un navigateur web. C'est un logiciel de gestion de contenu, dont la structure implicite est minimale, tandis que la structure explicite émerge en fonction des besoins des usagers. Le premier wiki, créé en 1995 par Ward Cunningham pour réaliser la section d’un site sur la programmation informatique, fut appelé WikiWikiWeb. En 2016, selon Alexa Internet, le site géré par wiki le plus consulté est Wikipédia;
+1 ¤ 17/03/20 12:36 ¤ 29 ¤ test;

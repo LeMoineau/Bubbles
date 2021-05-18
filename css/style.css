@@ -1,0 +1,292 @@
+
+header {
+
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 70px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+
+}
+
+#logo, #header-buttons {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  color: #ecf0f1;
+  font-family: 'Jost', sans-serif;
+  font-size: 20px;
+
+}
+
+#logo img {
+
+  height: 80%;
+
+}
+
+.header-button {
+
+  color: #3498db;
+  font-weight: bolder;
+  margin: 40px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #ecf0f1;
+  border-radius: 3px;
+  text-decoration: none;
+
+}
+
+.header-button-underline {
+
+  position: absolute;
+
+  color: white;
+  background-color: #3498db;
+  height: 2px;
+  width: 0;
+  transition: all 0.4s linear;
+
+}
+
+.header-button:hover .header-button-underline {
+
+  width: inherit;
+
+}
+
+.behind {
+
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  z-index: -1;
+  background-color: #ecf0f1;
+
+}
+
+.form {
+
+  fill: #3498db;
+  stroke-width: 0;
+
+}
+
+#first-section {
+
+  width: 100%;
+  height: 800px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+
+}
+
+.real-info {
+
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: auto;
+  height: auto;
+  max-width: 550px;
+
+}
+
+.real-info h1 {
+
+  font-family: 'Solway', sans-serif;
+  color: #ecf0f1;
+  font-weight: normal;
+  text-align: left;
+  margin-bottom: 40px;
+
+}
+
+.real-info p {
+
+  color: #ecf0f1;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: "Jost", sans-serif;
+
+}
+
+button {
+
+  padding: 20px;
+  border-radius: 40px;
+  border: solid 3px #ecf0f1;
+  margin: 40px;
+  font-family: 'Solway', sans-serif;
+  font-size: 20px;
+  color: #3498db;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  outline: none;
+
+}
+
+button:hover {
+
+  color: #ecf0f1;
+  background-color: #2980b9;
+
+}
+
+.demo {
+
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  height: 800px;
+
+}
+
+@keyframes entreDemoBubbles {
+  0% { transform: scale(0); }
+}
+
+.demo-bubbles {
+
+  position: absolute;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 70px;
+  height: 70px;
+  background-color: #3498db;
+  border: solid 2px #bdc3c7;
+  border-radius: 100%;
+  white-space: nowrap;
+  color: #ecf0f1;
+  text-shadow: 1px 1px #7f8c8d, -1px -1px #7f8c8d, -1px 1px #7f8c8d, 1px -1px #7f8c8d;
+  font-size: 20px;
+  animation: entreDemoBubbles 0.5s linear;
+  transform: scale(1);
+  cursor: pointer;
+  transition: all 0.2s linear;
+
+}
+
+.demo-bubbles:hover {
+
+  border: solid 8px #bdc3c7;
+  width: 58px;
+  height: 58px;
+
+}
+
+.demo-info {
+
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 50px;
+
+  width: 300px;
+  height: 40px;
+  background-color: rgb(231, 235, 236);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  padding: 10px;
+  transition: all 0.2s linear;
+  transform: scale(0) rotate(12deg);
+  font-size: 15px;
+  color: black;
+  text-shadow: none;
+  z-index: 7;
+  text-align: center;
+
+}
+
+.demo-bubbles:hover .demo-info {
+
+  transform: scale(1) rotate(0);
+
+}
+
+footer {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  width: calc(100% - 40px);
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #3498db;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+  font-size: 15px;
+  font-family: 'Jost', sans-serif;
+
+}
+
+nav {
+
+  position: fixed;
+  height: 250px;
+  top: calc(50% - 125px);
+  right: 0;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+@media screen and (min-width: 350px) {
+  nav {
+    display: flex;
+  }
+}
+
+.nav-button {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+
+}
+
+.nav-button-title {
+
+  color: #3498db;
+  font-size: 17px;
+  transform: scale(0);
+  transition: all 0.2s linear;
+
+}
+
+.nav-button:hover .nav-button-title { transform: scale(1); }
+
+.nav-button-visu {
+
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+  margin-right: 20px;
+  background-color: transparent;
+  border: solid 4px #3498db;
+  transition: all 0.2s linear;
+  border-radius: 100%;
+
+}
+
+.nav-button:hover .nav-button-visu { background-color: #3498db; }

@@ -1,0 +1,7 @@
+name: papotons;
+members: ;
+admins: ;
+
+<Messages>;
+-1 ¤ 15/04/20 12:36 ¤ 1 ¤ C'est un nouveau groupe qui se créer !;
+-1 ¤ 15/04/20 12:37 ¤ 2 ¤ Une personne semble être partie...;

@@ -1,0 +1,155 @@
+
+body {
+
+    background-color: #2980b9;
+
+}
+
+#container {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 50px;
+
+}
+
+#task-field {
+
+  min-width: 550px;
+  width: fit-content;
+  padding: 30px;
+  height: 50px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 2;
+
+}
+
+#task-submit {
+
+  padding: 10px;
+  background-color: #2ecc71;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  margin-left: 40px;
+  transition: all 0.2s linear;
+  outline: none;
+
+}
+
+#task-submit:hover {
+
+  background-color: #27ae60;
+
+}
+
+#task-prec {
+
+  min-height: 70px;
+  background-color: #ecf0f1;
+  width: 550px;
+  border-radius: 0 0 5px 5px;
+
+}
+
+#task-action { min-width: 180px; }
+#task-person { min-width: 175px; }
+
+.task-item {
+
+  width: calc(100% - 20px);
+  border-top: dashed 1px black;
+  height: 50px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.task-input {
+
+  border: none;
+  min-width: 150px;
+  width: fit-content;
+  border-bottom: solid 2px #3498db;
+  background-color: transparent;
+  height: 30px;
+  text-align: center;
+  outline: none;
+  transition: all 0.2s linear;
+
+}
+
+.task-input:hover, .task-input:focus {
+
+  border-bottom: solid 2px #2ecc71;
+
+}
+
+h4 {
+
+  margin: 20px;
+
+}
+
+.task-item-buttons {
+
+  width: 0;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-color: white;
+  transition: all 0.2s linear;
+  border-radius: 20px 0 0 20px;
+  padding-left: 0;
+
+}
+
+.task-item:hover .task-item-buttons {
+
+  width: 100px;
+  padding-left: 10px;
+
+}
+
+.task-item-button {
+
+  margin: 10px;
+  line-height: 25px;
+  cursor: pointer;
+
+}
+
+.task-item-button-info {
+
+  position: absolute;
+  transform: scale(0) rotate(12deg);
+  transition: all 0.2s linear;
+  background-color: #ecf0f1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+
+}
+
+.task-item-button:hover .task-item-button-info {
+
+  transform: scale(1) rotate(0);
+
+}

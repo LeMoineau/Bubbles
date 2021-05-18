@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Solway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+html { scroll-behavior: smooth; }
+
+@media screen {
+
+  body {
+
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+  }
+
+  #header {
+
+    padding: 0 10px 0 10px;
+    top: 0;
+    z-index: 10;
+    height: 60px;
+    background-color: #3498db;
+    box-shadow: 0px 0px 15px black;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  input, form, textarea, label {
+
+    font-family: 'Roboto', sans-serif;
+
+  }
+
+  #header-right {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+  }
+
+  .header-profil {
+
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 100%;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+
+  }
+
+  h2 {
+
+    font-weight: normal;
+
+  }
+
+
+}
+
+@media screen and (min-width: 481px) {
+
+  #header {
+
+    position: sticky;
+
+  }
+
+  #header-left {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+  }
+
+}
